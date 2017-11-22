@@ -49,10 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs">
+      <DependentUpon>BankModels.tt</DependentUpon>
+    </Compile>
     <Compile Include="BankModels.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BankModels.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BankModels.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BankModels.tt</DependentUpon>
     </Compile>
     <Compile Include="BankModels.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -60,7 +68,13 @@
       <DependentUpon>BankModels.edmx</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="Customer.cs">
+      <DependentUpon>BankModels.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionID.cs">
+      <DependentUpon>BankModels.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="BankModels.edmx">
@@ -79,6 +93,12 @@
     <Content Include="BankModels.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>BankModels.Context.cs</LastGenOutput>
+      <DependentUpon>BankModels.edmx</DependentUpon>
+    </Content>
+    <Content Include="BankModels.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BankModels.edmx</DependentUpon>
+      <LastGenOutput>BankModels.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

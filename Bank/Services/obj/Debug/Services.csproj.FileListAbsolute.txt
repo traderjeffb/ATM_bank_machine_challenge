@@ -1,0 +1,14 @@
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\Services.dll.config
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\Services.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\Services.pdb
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\Bank.Model.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\EntityFramework.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\Bank.Model.pdb
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\Bank.Model.dll.config
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\EntityFramework.xml
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\obj\Debug\Services.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Services\obj\Debug\Services.pdb

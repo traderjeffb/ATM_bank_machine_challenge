@@ -1,0 +1,3 @@
+﻿DROP TABLE Account;
+GO
+
