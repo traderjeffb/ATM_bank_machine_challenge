@@ -1,12 +1,9 @@
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.ATM_Console.exe.config
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.ATM_Console.exe
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.ATM_Console.pdb
-C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.Model.dll
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\EntityFramework.dll
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\EntityFramework.SqlServer.dll
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Services.dll
-C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.Model.pdb
-C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.Model.dll.config
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Services.pdb
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Services.dll.config
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\EntityFramework.xml
@@ -15,3 +12,8 @@ C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\obj\Debug\Ban
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\obj\Debug\Bank.ATM_Console.csproj.CoreCompileInputs.cache
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\obj\Debug\Bank.ATM_Console.exe
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\obj\Debug\Bank.ATM_Console.pdb
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.Models.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.Models.pdb
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Bank.Models.dll.config
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Figgle.dll
+C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.ATM_Console\bin\Debug\Figgle.xml

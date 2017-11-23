@@ -3,23 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Bank.Model;
+using Bank.Models;
 
 namespace Services
 {
     public class CustomerService
     {
-        public void CreateCustomer(int id, string first, string last, int account_id)
+        public void CreateCustomer( string first, string last)
         {
-            var entity = new Customer
-            {
-                CustomerID = id,
-                LastNamePrimary = last,
-                FirstNamePrimary = first,
-                AccountID = account_id
-            };
+            
             using (var ctx = new Bank_ATMEntities())
             {
+                var entity = new Customer
+                {
+
+                    LastNamePrimary = last,
+                    FirstNamePrimary = first,
+                    CustomerID = 1234
+
+                };
                 ctx.Customers.Add(entity);
                 ctx.SaveChanges();
             };

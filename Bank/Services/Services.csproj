@@ -47,18 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Customer.cs" />
+    <Compile Include="AuthService.cs" />
     <Compile Include="CustomerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bank.Model\Bank.Model.csproj">
-      <Project>{a23f7e6f-37d0-40cf-880a-ff794e116422}</Project>
-      <Name>Bank.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bank.Models\Bank.Models.csproj">
+      <Project>{79D9ABA5-CFE9-4C92-965B-5F75C0E4131B}</Project>
+      <Name>Bank.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

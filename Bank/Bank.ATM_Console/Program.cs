@@ -3,17 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Figgle;
 using Services;
+
+
 
 namespace Bank.ATM_Console
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
-            CustomerService customer = new CustomerService();
+            Console.WriteLine(FiggleFonts.Standard.Render("Hello"));
+            AuthService authService = new AuthService();
+            Console.WriteLine("enter your pin");
+            var pin = Int32.Parse(Console.ReadLine());
+            authService.VerifyAccount(pin);
+  
+            BankController demo = new BankController();
+            demo.Add_Customer();
 
-            customer.CreateCustomer(1,"john", "doe",1);
+
+
         }
     }
 }

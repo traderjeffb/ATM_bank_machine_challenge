@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Bank_ATMModelStoreContainer" CdmEntityContainer="Bank_ATMEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="Bank_ATMModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Deposits" ColumnName="Deposits" />
+          <ScalarProperty Name="Withdraws" ColumnName="Withdraws" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="Bank_ATMModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="FirstNamePrimary" ColumnName="FirstNamePrimary" />
+          <ScalarProperty Name="LastNamePrimary" ColumnName="LastNamePrimary" />
+          <ScalarProperty Name="FirstNameSecondary" ColumnName="FirstNameSecondary" />
+          <ScalarProperty Name="LastNameSecondary" ColumnName="LastNameSecondary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionIDs">
+      <EntityTypeMapping TypeName="Bank_ATMModel.TransactionID">
+        <MappingFragment StoreEntitySet="TransactionID">
+          <ScalarProperty Name="TransactionID1" ColumnName="TransactionID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
