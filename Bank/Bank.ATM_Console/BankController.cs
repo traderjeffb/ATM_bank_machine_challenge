@@ -11,7 +11,7 @@ namespace Bank.ATM_Console
     {
 
         private CustomerService customerService = new CustomerService();
-       // private AccountService accountService = new AccountService();
+        private AuthService authService = new AuthService();
 
         public void Add_Customer()
         {
@@ -23,9 +23,24 @@ namespace Bank.ATM_Console
             customerService.CreateCustomer(first, last);
         }
 
-        public void Foo()
+
+
+        public void VerifyAccountInConsole()
         {
-            Console.WriteLine("Foo");
+
+            Console.WriteLine("Please enter an account number:");
+            string accountString = Console.ReadLine();
+            int account = Int32.Parse(accountString);
+
+            Console.WriteLine("enter your pin");
+            string pinString = Console.ReadLine();
+            int pin = Int32.Parse(pinString);
+
+            authService.VerifyAccount(account, pin);
         }
+
+
+
+        
     }
 }
