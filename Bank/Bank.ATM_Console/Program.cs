@@ -19,11 +19,16 @@ namespace Bank.ATM_Console
 
             BankController anInstanceOfBankControllerThatICanUseToCallMethods = new BankController();
             anInstanceOfBankControllerThatICanUseToCallMethods.VerifyAccountInConsole();
-           
-            //Console.WriteLine("before");
-            //TransactionChoice transaction = new TransactionChoice();
-            //Console.WriteLine("after");
-            
+
+            //I like that you're using Console messages.
+            //This is a good approach to learning....
+            Console.WriteLine("before");
+                            //This is your instance of TransactionChoice
+            TransactionChoice transaction = new TransactionChoice();
+            Console.WriteLine("after");
+
+            //You need to call the method on the instance of the class.
+            transaction.TransactionMenu();
 
 
 
