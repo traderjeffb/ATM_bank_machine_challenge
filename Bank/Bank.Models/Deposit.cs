@@ -12,13 +12,12 @@ namespace Bank.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class TransactionID
+    public partial class Deposit
     {
-        public int TransactionID1 { get; set; }
-        public int AccountID { get; set; }
-        public string TransactionType { get; set; }
-        public System.DateTime DateTime { get; set; }
+        public int DepositID { get; set; }
+        public int TransactionID { get; set; }
+        public decimal Amount { get; set; }
     
-        public virtual Account Account { get; set; }
+        public virtual Transaction Transaction { get; set; }
     }
 }

@@ -27,6 +27,8 @@ namespace Bank.Models
     
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
-        public virtual DbSet<TransactionID> TransactionIDs { get; set; }
+        public virtual DbSet<Deposit> Deposits { get; set; }
+        public virtual DbSet<Transaction> Transactions { get; set; }
+        public virtual DbSet<Withdrawl> Withdrawls { get; set; }
     }
 }

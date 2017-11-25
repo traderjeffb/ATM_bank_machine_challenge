@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.Models\BankModels.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\BankModels.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

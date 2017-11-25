@@ -17,17 +17,17 @@ namespace Bank.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Account()
         {
-            this.TransactionIDs = new HashSet<TransactionID>();
+            this.Transactions = new HashSet<Transaction>();
         }
     
         public int AccountID { get; set; }
-        public Nullable<decimal> Balance { get; set; }
-        public Nullable<decimal> Deposits { get; set; }
-        public Nullable<decimal> Withdraws { get; set; }
+        public int AccountNumber { get; set; }
+        public int PIN { get; set; }
+        public int AccountType { get; set; }
         public int CustomerID { get; set; }
     
         public virtual Customer Customer { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TransactionID> TransactionIDs { get; set; }
+        public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

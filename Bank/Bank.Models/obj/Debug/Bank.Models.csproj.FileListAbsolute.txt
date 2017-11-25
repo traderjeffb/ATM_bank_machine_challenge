@@ -9,3 +9,13 @@ C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Mod
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Models.csproj.CoreCompileInputs.cache
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Models.dll
 C:\DotNetProjects\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Models.pdb
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\Bank.Models.dll.config
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\Bank.Models.dll
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\Bank.Models.pdb
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\EntityFramework.dll
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\EntityFramework.xml
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Models.csprojResolveAssemblyReference.cache
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Models.dll
+C:\efawork\jeff_beeson\ATM_bank_machine_challenge\Bank\Bank.Models\obj\Debug\Bank.Models.pdb

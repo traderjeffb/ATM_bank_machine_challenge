@@ -1,35 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Bank_ATMModelStoreContainer" CdmEntityContainer="Bank_ATMEntities">
+  <EntityContainerMapping StorageEntityContainer="Bank_ATMEntitiesModelStoreContainer" CdmEntityContainer="Bank_ATMEntities">
     <EntitySetMapping Name="Accounts">
-      <EntityTypeMapping TypeName="Bank_ATMModel.Account">
-        <MappingFragment StoreEntitySet="Account">
+      <EntityTypeMapping TypeName="Bank_ATMEntitiesModel.Account">
+        <MappingFragment StoreEntitySet="Accounts">
           <ScalarProperty Name="AccountID" ColumnName="AccountID" />
-          <ScalarProperty Name="Balance" ColumnName="Balance" />
-          <ScalarProperty Name="Deposits" ColumnName="Deposits" />
-          <ScalarProperty Name="Withdraws" ColumnName="Withdraws" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="PIN" ColumnName="PIN" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Customers">
-      <EntityTypeMapping TypeName="Bank_ATMModel.Customer">
-        <MappingFragment StoreEntitySet="Customer">
+      <EntityTypeMapping TypeName="Bank_ATMEntitiesModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
-          <ScalarProperty Name="FirstNamePrimary" ColumnName="FirstNamePrimary" />
-          <ScalarProperty Name="LastNamePrimary" ColumnName="LastNamePrimary" />
-          <ScalarProperty Name="FirstNameSecondary" ColumnName="FirstNameSecondary" />
-          <ScalarProperty Name="LastNameSecondary" ColumnName="LastNameSecondary" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="TransactionIDs">
-      <EntityTypeMapping TypeName="Bank_ATMModel.TransactionID">
-        <MappingFragment StoreEntitySet="TransactionID">
-          <ScalarProperty Name="TransactionID1" ColumnName="TransactionID" />
-          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+    <EntitySetMapping Name="Deposits">
+      <EntityTypeMapping TypeName="Bank_ATMEntitiesModel.Deposit">
+        <MappingFragment StoreEntitySet="Deposits">
+          <ScalarProperty Name="DepositID" ColumnName="DepositID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="Bank_ATMEntitiesModel.Transaction">
+        <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
           <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
-          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Withdrawls">
+      <EntityTypeMapping TypeName="Bank_ATMEntitiesModel.Withdrawl">
+        <MappingFragment StoreEntitySet="Withdrawls">
+          <ScalarProperty Name="WithdrawalID" ColumnName="WithdrawalID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -18,13 +18,21 @@ namespace Bank.ATM_Console
         
             //authorizes pin number
             AuthService authService = new AuthService();
-            Console.WriteLine("enter your pin");
-            var pin = Int32.Parse(Console.ReadLine());
-            authService.VerifyAccount(pin);
 
-            Console.WriteLine("before");
-            TransactionChoice transaction = new TransactionChoice();
-            Console.WriteLine("after");
+            Console.WriteLine("Please enter an account number:");
+            string accountString = Console.ReadLine();
+            int account = Int32.Parse(accountString);
+
+            Console.WriteLine("enter your pin");
+            string pinString = Console.ReadLine();
+            int pin = Int32.Parse(pinString);
+
+
+            authService.VerifyAccount(account, pin);
+
+            //Console.WriteLine("before");
+            //TransactionChoice transaction = new TransactionChoice();
+            //Console.WriteLine("after");
             
 
 

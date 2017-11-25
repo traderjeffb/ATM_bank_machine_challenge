@@ -17,8 +17,8 @@ namespace Services
                 var entity = new Customer
                 {
 
-                    LastNamePrimary = last,
-                    FirstNamePrimary = first,
+                    LastName = last,
+                    FirstName = first,
                     CustomerID = 1234
 
                 };

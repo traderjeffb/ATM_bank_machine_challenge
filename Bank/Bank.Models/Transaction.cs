@@ -12,19 +12,23 @@ namespace Bank.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Customer
+    public partial class Transaction
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Customer()
+        public Transaction()
         {
-            this.Accounts = new HashSet<Account>();
+            this.Deposits = new HashSet<Deposit>();
+            this.Withdrawls = new HashSet<Withdrawl>();
         }
     
-        public int CustomerID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public int TransactionID { get; set; }
+        public int TransactionType { get; set; }
+        public int AccountID { get; set; }
     
+        public virtual Account Account { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Account> Accounts { get; set; }
+        public virtual ICollection<Deposit> Deposits { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Withdrawl> Withdrawls { get; set; }
     }
 }

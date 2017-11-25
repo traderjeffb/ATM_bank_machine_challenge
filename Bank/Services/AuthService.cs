@@ -11,21 +11,18 @@ namespace Services
     {
         private Bank_ATMEntities db = new Bank_ATMEntities();
 
-        public bool VerifyAccount(int pin)
+        public bool VerifyAccount(int account, int pin)
         {
-            var query = from a in db.Customers
-                      where a.CustomerID == pin
+            var query = from a in db.Accounts
+                      where a.AccountNumber == account && a.PIN == pin
                       select a;
             foreach (var acct in query )
             {
                 Console.WriteLine("Welcome to your account");
                 return true;
             }
-            Console.WriteLine("Wrong pin number please enter pin number again");
+            Console.WriteLine("Wrong pin or account number please enter correct pin and account number again");
             return false;
-
         }
-
-      
     }
 }
