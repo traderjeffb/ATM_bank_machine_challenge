@@ -15,6 +15,7 @@ namespace Services
                     "2. Deposit Money\n" +
                     "3. Check Balance");
             int choice = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(choice);
             return choice;
         }
 
