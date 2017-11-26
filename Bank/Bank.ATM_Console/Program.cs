@@ -23,11 +23,10 @@ namespace Bank.ATM_Console
             authService.VerifyAccount(pin);
 
             Console.WriteLine("before");
-            TransactionChoice transaction = new TransactionChoice();
+            //            TransactionChoice transaction = new TransactionChoice();
+            TransactionMenu transaction = new TransactionMenu();
+
             Console.WriteLine("after");
-            
-
-
   
         //    BankController demo = new BankController();
          //   demo.Add_Customer();

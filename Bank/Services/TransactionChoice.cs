@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public  class TransactionChoice
+            public class  TransactionChoice
     {
             public int TransactionMenu()
         {
